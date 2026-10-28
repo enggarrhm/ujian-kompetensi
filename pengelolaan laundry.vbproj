@@ -1,0 +1,343 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E280F3A8-9650-4C33-B859-811B5098021D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>pengelolaan_laundry.My.MyApplication</StartupObject>
+    <RootNamespace>pengelolaan_laundry</RootNamespace>
+    <AssemblyName>pengelolaan laundry</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>pengelolaan laundry.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>pengelolaan laundry.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DocumentationFile>pengelolaan laundry.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DocumentationFile>pengelolaan laundry.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="customerkasir.Designer.vb">
+      <DependentUpon>customerkasir.vb</DependentUpon>
+    </Compile>
+    <Compile Include="customerkasir.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formdataoutlet.Designer.vb">
+      <DependentUpon>formdataoutlet.vb</DependentUpon>
+    </Compile>
+    <Compile Include="formdataoutlet.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formpackagedata.Designer.vb">
+      <DependentUpon>formpackagedata.vb</DependentUpon>
+    </Compile>
+    <Compile Include="formpackagedata.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formlogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formlogin.Designer.vb">
+      <DependentUpon>formlogin.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formrekapambil.Designer.vb">
+      <DependentUpon>formrekapambil.vb</DependentUpon>
+    </Compile>
+    <Compile Include="formrekapambil.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formrekapmasuk.Designer.vb">
+      <DependentUpon>formrekapmasuk.vb</DependentUpon>
+    </Compile>
+    <Compile Include="formrekapmasuk.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formtransaksiambil.Designer.vb">
+      <DependentUpon>formtransaksiambil.vb</DependentUpon>
+    </Compile>
+    <Compile Include="formtransaksiambil.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formtransaksiterima.Designer.vb">
+      <DependentUpon>formtransaksiterima.vb</DependentUpon>
+    </Compile>
+    <Compile Include="formtransaksiterima.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formuserdata.Designer.vb">
+      <DependentUpon>formuserdata.vb</DependentUpon>
+    </Compile>
+    <Compile Include="formuserdata.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mainmenuadmin.Designer.vb">
+      <DependentUpon>mainmenuadmin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="mainmenuadmin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include=".Designer.vb">
+      <DependentUpon>formcustomer.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formcustomer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mainmenuchasier.Designer.vb">
+      <DependentUpon>mainmenuchasier.vb</DependentUpon>
+    </Compile>
+    <Compile Include="mainmenuchasier.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formowner.Designer.vb">
+      <DependentUpon>formowner.vb</DependentUpon>
+    </Compile>
+    <Compile Include="formowner.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Module1.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="rekapterimakasir.Designer.vb">
+      <DependentUpon>rekapterimakasir.vb</DependentUpon>
+    </Compile>
+    <Compile Include="rekapterimakasir.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="rekapambilkasir.Designer.vb">
+      <DependentUpon>rekapambilkasir.vb</DependentUpon>
+    </Compile>
+    <Compile Include="rekapambilkasir.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="transaksiambilkasir.Designer.vb">
+      <DependentUpon>transaksiambilkasir.vb</DependentUpon>
+    </Compile>
+    <Compile Include="transaksiambilkasir.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="transaksiterimakasir.Designer.vb">
+      <DependentUpon>transaksiterimakasir.vb</DependentUpon>
+    </Compile>
+    <Compile Include="transaksiterimakasir.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="customerkasir.resx">
+      <DependentUpon>customerkasir.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formdataoutlet.resx">
+      <DependentUpon>formdataoutlet.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formpackagedata.resx">
+      <DependentUpon>formpackagedata.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formlogin.resx">
+      <DependentUpon>formlogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formrekapambil.resx">
+      <DependentUpon>formrekapambil.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formrekapmasuk.resx">
+      <DependentUpon>formrekapmasuk.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formtransaksiambil.resx">
+      <DependentUpon>formtransaksiambil.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formtransaksiterima.resx">
+      <DependentUpon>formtransaksiterima.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formuserdata.resx">
+      <DependentUpon>formuserdata.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mainmenuadmin.resx">
+      <DependentUpon>mainmenuadmin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formcustomer.resx">
+      <DependentUpon>formcustomer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mainmenuchasier.resx">
+      <DependentUpon>mainmenuchasier.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formowner.resx">
+      <DependentUpon>formowner.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rekapambilkasir.resx">
+      <DependentUpon>rekapambilkasir.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rekapterimakasir.resx">
+      <DependentUpon>rekapterimakasir.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="transaksiambilkasir.resx">
+      <DependentUpon>transaksiambilkasir.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="transaksiterimakasir.resx">
+      <DependentUpon>transaksiterimakasir.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-laundry-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-back-arrow-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-registration-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-registration-90.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-company-90.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-user-90.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-laundry-90.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-transaction-90.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-export-90.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-report-90.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-reserch-30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tosca White Black Illustration Simple Shoescare Logo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-user-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-report-file-90.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>

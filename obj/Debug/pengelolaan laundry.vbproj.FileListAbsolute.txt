@@ -1,0 +1,22 @@
+C:\Users\Hp\Documents\sekolahh\ukomm\pengelolaan laundry\pengelolaan laundry\bin\Debug\pengelolaan laundry.exe.config
+C:\Users\Hp\Documents\sekolahh\ukomm\pengelolaan laundry\pengelolaan laundry\bin\Debug\pengelolaan laundry.exe
+C:\Users\Hp\Documents\sekolahh\ukomm\pengelolaan laundry\pengelolaan laundry\bin\Debug\pengelolaan laundry.pdb
+C:\Users\Hp\Documents\sekolahh\ukomm\pengelolaan laundry\pengelolaan laundry\bin\Debug\pengelolaan laundry.xml
+C:\Users\Hp\Documents\sekolahh\ukomm\pengelolaan laundry\pengelolaan laundry\obj\Debug\pengelolaan laundry.vbproj.AssemblyReference.cache
+C:\Users\Hp\Documents\sekolahh\ukomm\pengelolaan laundry\pengelolaan laundry\obj\Debug\pengelolaan_laundry.Resources.resources
+C:\Users\Hp\Documents\sekolahh\ukomm\pengelolaan laundry\pengelolaan laundry\obj\Debug\pengelolaan laundry.vbproj.GenerateResource.cache
+C:\Users\Hp\Documents\sekolahh\ukomm\pengelolaan laundry\pengelolaan laundry\obj\Debug\pengelolaan laundry.vbproj.CoreCompileInputs.cache
+C:\Users\Hp\Documents\sekolahh\ukomm\pengelolaan laundry\pengelolaan laundry\obj\Debug\pengelolaan laundry.exe
+C:\Users\Hp\Documents\sekolahh\ukomm\pengelolaan laundry\pengelolaan laundry\obj\Debug\pengelolaan laundry.xml
+C:\Users\Hp\Documents\sekolahh\ukomm\pengelolaan laundry\pengelolaan laundry\obj\Debug\pengelolaan laundry.pdb
+C:\Users\Hp\Documents\sekolahh\ukomm\pengelolaan laundry\pengelolaan laundry\obj\Debug\pengelolaan_laundry.formlogin.resources
+C:\Users\Hp\Documents\sekolahh\ukomm\pengelolaan laundry\pengelolaan laundry\obj\Debug\pengelolaan_laundry.mainmenuadmin.resources
+C:\Users\Hp\Documents\sekolahh\ukomm\pengelolaan laundry\pengelolaan laundry\obj\Debug\pengelolaan_laundry.formcustomeradmin.resources
+C:\Users\Hp\Documents\sekolahh\ukomm\pengelolaan laundry\pengelolaan laundry\obj\Debug\pengelolaan_laundry.formoutletadmin.resources
+C:\Users\Hp\Documents\sekolahh\ukomm\pengelolaan laundry\pengelolaan laundry\obj\Debug\pengelolaan_laundry.formuserdataadmin.resources
+C:\Users\Hp\Documents\sekolahh\ukomm\pengelolaan laundry\pengelolaan laundry\obj\Debug\pengelolaan_laundry.formlaudryadmin.resources
+C:\Users\Hp\Documents\sekolahh\ukomm\pengelolaan laundry\pengelolaan laundry\obj\Debug\pengelolaan_laundry.formmasukadmin.resources
+C:\Users\ADVAN WORKPLUS\Downloads\ukomm\project1\pengelolaan laundry\obj\Debug\pengelolaan laundry.vbproj.AssemblyReference.cache
+C:\Users\ADVAN WORKPLUS\Downloads\ukomm\project1\pengelolaan laundry\obj\Debug\pengelolaan laundry.exe
+C:\Users\ADVAN WORKPLUS\Downloads\ukomm\project1\pengelolaan laundry\obj\Debug\pengelolaan laundry.xml
+C:\Users\ADVAN WORKPLUS\Downloads\ukomm\project1\pengelolaan laundry\obj\Debug\pengelolaan laundry.pdb
